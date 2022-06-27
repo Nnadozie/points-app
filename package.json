@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "start": "yarn tsc -w & nodemon -q ./dist/prototype.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18",
+    "typescript": "^4.7.4"
+  }
+}
